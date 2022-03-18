@@ -2,10 +2,10 @@ const TheirMessage = ({ lastMessage, message }) => {
     const isFirstMessageByUser = !lastMessage || lastMessage.sender.username !== message.sender.username;
   
     return (
-      <div className="message-row">
+      <div className="message">
         {isFirstMessageByUser && (
           <div
-            className="message-avatar"
+            className="message"
             style={{ backgroundImage: message.sender && `url(${message.sender.avatar})` }}
           />
         )}
@@ -19,7 +19,7 @@ const TheirMessage = ({ lastMessage, message }) => {
             />
           )
           : (
-            <div className="message" style={{ float: 'left', backgroundColor: '#CABCDC', marginLeft: isFirstMessageByUser ? '4px' : '48px' }}>
+            <div className="message" style={{ float: 'left', backgroundColor: '#CABCEC', marginLeft: isFirstMessageByUser ? '4px' : '48px' }}>
               {message.text}
             </div>
           )}
