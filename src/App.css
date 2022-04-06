@@ -1,8 +1,7 @@
-/* CHAT STYLES */
+
 * {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Noto Color Emoji;
   letter-spacing: 0.5px;
 }
 
@@ -42,7 +41,6 @@
 
 .ce-danger-button {
   background-color: white !important;
-  border-radius: 22px !important;
 }
 
 .ce-settings {
@@ -57,7 +55,7 @@
 .ce-autocomplete-options {
   border-radius: 6px !important;
   border: 1px solid #3b2a50 !important;
-  background-color: white !important;
+  
 }
 
 .ce-chat-settings-container {
@@ -115,14 +113,12 @@
   color: white;
   text-align: center;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: 48px;
 }
 
 .message {
   padding: 12px;
   font-size: 16px;
-  border-radius: 6px;
   max-width: 60%;
 }
 
@@ -156,7 +152,6 @@
 .message-form-container {
   position: absolute;
   bottom: 0px;
-  width: calc(100% - 36px);
   padding: 18px;
   background-color: rgb(240, 240, 240);
 }
